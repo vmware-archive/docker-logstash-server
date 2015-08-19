@@ -31,4 +31,4 @@ output {
 }
 EOF
 
-exec /docker-entrypoint.sh logstash -f /config-dir/logstash.conf --info "$@"
+exec /docker-entrypoint.sh logstash -f /config-dir/logstash.conf "$@"
